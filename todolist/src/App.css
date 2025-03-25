@@ -27,11 +27,19 @@ body{
 }
 .button{
     font-size: 15px;
+    font-weight: bold;
+    color: white;
     padding: 10px;
     margin-top: 10px;
     width: 80px;
-    background: #277de6;
+    background: #002fff;
+    border: none;
     border-radius: 5px;
+}
+.button:hover{
+    color: #002fff;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .task{

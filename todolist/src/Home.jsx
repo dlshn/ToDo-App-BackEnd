@@ -2,7 +2,7 @@ import React , {useState} from 'react'
 import Create from './Create'
 
 function Home() {
-    const [todos, setTodos] = useState(["assdd","asdasd","","mn mn","kjkjnkj"]);
+    const [todos, setTodos] = useState(["assdd","asdasd","","mn mn","kjkjnkj","",""]);
   return (
     <>
     <div className="container">
