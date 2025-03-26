@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI, {
 app.get('/get',(req,res) =>{
     TodoModel.find()  /* all records get */
     .then(result=> res.json(result))
-    .catch(err=> res.json(err)) 
+    .catch(err=> res.json(err))
 });
 
 app.put('/update/:id',(req,res) =>{
